@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            overflow: hidden;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        #silver{
+            position: absolute;
+            left: 20px;
+            margin: 10px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px;
+        }
+        #gold{
+            position: absolute;
+            left: 100px;
+            margin: 10px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <button class="silver" id="silver">Bronze</button>
+        <button id="gold">ceramic</button>
+    </div>
+    <canvas class="web"></canvas>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
